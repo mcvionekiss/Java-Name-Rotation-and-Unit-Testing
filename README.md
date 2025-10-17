@@ -42,14 +42,15 @@ System.out.println(j.getRotatedFullName(-5));  // eaterPeter Ant
 All tests are implemented with JUnit Jupiter (JUnit 5) in TestJaceyDeng.java.
 
 Test Coverage
-Method	Description	Test Case
-getFullName()	Returns combined name	✅ testGetFullName()
-getFirstName()	Returns first name	✅ testGetFirstName()
-getLastName()	Returns last name	✅ testGetLastName()
-getUCInetID()	Returns UCInetID	✅ testGetUCInetID()
-getStudentNumber()	Returns numeric ID	✅ testGetStudentNumber()
-getRotatedFullName(int shift)	Rotation (positive)	✅ testPositiveGetRotatedFullName()
-getRotatedFullName(int shift)	Rotation (negative)	✅ testNegativeGetRotatedFullName()
+| Method                          | Description           | Test Case                            |
+| ------------------------------- | --------------------- | ------------------------------------ |
+| `getFullName()`                 | Returns combined name | ✅ `testGetFullName()`                |
+| `getFirstName()`                | Returns first name    | ✅ `testGetFirstName()`               |
+| `getLastName()`                 | Returns last name     | ✅ `testGetLastName()`                |
+| `getUCInetID()`                 | Returns UCInetID      | ✅ `testGetUCInetID()`                |
+| `getStudentNumber()`            | Returns numeric ID    | ✅ `testGetStudentNumber()`           |
+| `getRotatedFullName(int shift)` | Rotation (positive)   | ✅ `testPositiveGetRotatedFullName()` |
+| `getRotatedFullName(int shift)` | Rotation (negative)   | ✅ `testNegativeGetRotatedFullName()` |
 
 All seven test cases pass successfully in IntelliJ IDEA (JUnit 5 environment).
 
